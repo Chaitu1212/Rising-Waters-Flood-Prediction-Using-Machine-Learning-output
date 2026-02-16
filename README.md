@@ -46,14 +46,22 @@ model.pkl
 Flood-Prediction
 │
 ├── app.py
+
 ├── train.py
+
 ├── model.pkl
+
 ├── dataset.xlsx
+
 │
 └── templates
+
     ├── home.html
+    
     ├── index.html
+    
     ├── chance.html
+    
     └── nochance.html
     
 ## ▶️ How to Run the Project
