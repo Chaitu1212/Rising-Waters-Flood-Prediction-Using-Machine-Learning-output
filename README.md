@@ -8,11 +8,6 @@ Flood Prediction Using Machine Learning is a web-based system that analyzes weat
 This project is a Machine Learning based Flood Prediction System that predicts whether flood risk exists based on environmental and rainfall-related parameters.
 The system uses a trained Random Forest model and a Flask web application to provide instant predictions through a user-friendly interface.
 
-## 🎥 Project Demo Video
-
-Watch here:
-"C:\Users\GURUCHAITHANYA\OneDrive\flood demo - Shortcut.lnk"
-
 ## 🚀 Features
 
 * Predicts flood risk using Machine Learning
