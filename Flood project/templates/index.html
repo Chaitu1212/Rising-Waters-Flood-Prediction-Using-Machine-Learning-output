@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Flood Prediction</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:url("https://images.unsplash.com/photo-1527482797697-8795b05a13fe");
+background-size:cover;
+}
+
+.card{
+
+width:750px;
+margin:70px auto;
+padding:40px;
+background:rgba(0,0,0,0.75);
+border-radius:20px;
+color:white;
+text-align:center;
+
+}
+
+.formgrid{
+
+display:grid;
+grid-template-columns:1fr 1fr;  
+gap:12px;
+
+}
+
+input{
+padding:13px;
+border:none;
+border-radius:8px;
+}
+
+button{
+
+margin-top:25px;
+padding:16px 40px;
+font-size:20px;
+background:#ff5722;
+border:none;
+color:white;
+border-radius:10px;
+cursor:pointer;
+
+}
+
+button:hover{
+background:#e64a19;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h2>Enter Flood Data</h2>
+
+<form action="/predict" method="post">
+
+<div class="formgrid">
+
+<input name="1" placeholder="Temp">
+<input name="2" placeholder="Humidity">
+
+<input name="3" placeholder="Cloud Cover">
+<input name="4" placeholder="Annual Rain">
+
+<input name="5" placeholder="Jan-Feb">
+<input name="6" placeholder="Mar-May">
+
+<input name="7" placeholder="Jun-Sep">
+<input name="8" placeholder="Oct-Dec">
+
+<input name="9" placeholder="avgjune">
+<input name="10" placeholder="sub">
+
+</div>
+
+<button type="submit">Predict Flood</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
